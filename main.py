@@ -23,7 +23,7 @@ def get_users():
     return users
 
 @app.get("/user_by_id/{id}")
-def get_users2(id:int):
+def get_user_by_id(id:int):
     return users[id]
 
 if __name__ == "__main__":
